@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.special{
+    color: #FF5400;
+}
+.special-1{
+    color: #FF5400;
+    font-weight: 800;
+}
+.special-2{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* header styles */
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav-link a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+.list-icon{
+    display: none;
+}
+
+/* explore section */
+.explore-sec{
+    /* border: 1px solid blue; */
+    text-align: center;
+    height: 570px;
+}
+.main-pic{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -2;
+}
+.main-gradient{
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1195px;
+    height: 498px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: -1;
+}
+.explore-sec-content h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 27px;
+}
+.explore-sec-content p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+.fillup-box-con{
+    /* border: 1px solid red; */
+    width: 778px;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.fillup-box{
+    display: flex;
+    align-items: center;
+}
+#where{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-weight: 400;
+    margin-right: 20px;
+    border: none;
+}
+#time{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-weight: 400;
+    margin-right: 20px;
+    border: none;
+}
+#type{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-weight: 400;
+    margin-right: 20px;
+    border: none;
+}
+.submit-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 13px 50px;
+    align-items: flex-start;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* popular tour styles */
+.popular-tour{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid purple; */
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.popular-content{
+    width: 760px;
+}
+.popular-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+}
+.popular-content li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.popular-content button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* navbar */
+    .navbar{
+        padding-bottom: 30px;
+    }
+    .nav-logo img{
+        width: 28px;
+    }
+    .nav-logo h3{
+        font-size: 21px;
+    }
+    .list-icon{
+        display: contents;
+    }
+    .nav-link{
+        display: none;
+    }
+
+    /* explore section */
+    .main-pic{
+        width: 335px;
+        height: 483px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .main-gradient{
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .explore-sec-content h1{
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .explore-sec-content p{
+        font-size: 14px;
+        width: 304px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        line-height: 21px;
+    }
+    .fillup-box-con{
+        /* border: 1px solid black; */
+        width: 265px;
+        display: block;
+        padding: 10px;
+
+    }
+    .fillup-box{
+        flex-direction: column;
+    }
+    #where, #time, #type{
+        margin-right: 0;
+        width: 255px;
+        height: 52px;
+        margin-bottom: 15px;
+    }
+    .submit-btn{
+        padding: 13px 80px;
+    }
+    /* popular tour section */
+    .popular-tour{
+        flex-direction: column;
+        align-items: baseline;
+        width: 0px;
+        margin: 0 0px;
+    }
+    .popular-content{
+        width: 100px;
+        padding-left: 20px;
+    }
+    .popular-content h2{
+        font-size: 20px;
+        width: 200px;
+    }
+    .popular-content p{
+        width: 300px;
+    }
+    .popular-content li{
+        width: 300px;
+    }
+    .popular-content button{
+        margin-bottom: 20px;
+    }
+    .popular-img img{
+        width: 335px;
+    height: 342px;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    
+}

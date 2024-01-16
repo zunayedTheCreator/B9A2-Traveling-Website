@@ -599,6 +599,194 @@
     width: 1300px;
 }
 
+/* perfect place section styles */
+.perfect-place{
+    /* border: 1px solid red; */
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.perfect-place-content{
+    /* border: 1px solid blue; */
+    width: 600px;
+}
+.perfect-place-content h2{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.perfect-place-content p{
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.perfect-place-content li{
+    width: 518px;
+    color: #131318;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.perfect-place-content button{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.perfect-place-video{
+    /* border: 1px solid rgb(22, 253, 1); */
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+.perfect-place-video video{
+    width: 680px;
+    height: 474px;
+    margin-top: 65px;
+    z-index: -1;
+    border-radius: 16px;
+}
+.perfect-place-video h3{
+    width: 276px;
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 140px;
+    margin-left: 265px;
+    position: absolute;
+}
+
+/* newsletter styles */
+.newsletter-sec{
+    /* border: 1px solid red; */
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+}
+.newsletter-form-con{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-left: 50px;
+}
+.newsletter-form-con h5{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.newsletter-form-con p{
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.newsletter-form-con hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 420px;
+    margin: 0 auto;
+    height: 220px;
+}
+#name{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#email{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#sub{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.newsletter-img{
+    margin-left: 55px;
+}
+.tag{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 175px;
+    left: 340px;
+}
+.tag h6{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-1deg);
+    padding-top: 20px;
+}
+.tag h3{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    transform: rotate(-1deg);
+}
 
 @media screen and (max-width: 600px) {
 
@@ -909,7 +1097,123 @@
         height: 530px;
     }
     .deals-card-con-3{
-        height: 520px;
+        height: 370px;
+    }
+    .deals-sec{
+        width: 350px;
+    }
+    .see-btn{
+        margin-left: 70px;
+    }
+
+    /* perfect place */
+    .perfect-place{
+        flex-direction: column;
+        width: 350px;
+    }
+    .perfect-place-content{
+        width: 330px;
+    }
+    .perfect-place-video{
+        width: 350px;
+        height: 280px;
+    }
+    .perfect-place-content h2{
+        width: 248px;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        margin-left: 0;
+    }
+    .perfect-place-content p{
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 0;
+    }
+    .perfect-place-content li{
+        width: 300px;
+        color: #131318;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-left: 20px;
+    }
+    .perfect-place-content button{
+        margin-left: 0;
+    }
+    .perfect-place-video video{
+        width: 335px;
+        height: 200px;
+    }
+    .perfect-place-video h3{
+        width: 200px;
+        font-size: 15px;
+        margin-left: 80px;
+        line-height: 20px;
+        margin-top: 80px;
+    }
+
+    /* newsletter section */
+    .newsletter-sec{
+        flex-direction: column;
+        width: 350px;
+    }
+    .newsletter-form-con{
+        width: 350px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+    .newsletter-form-con h5{
+        font-size: 20px;
+    }
+    .newsletter-form-con p{
+        width: 270px;
+        font-size: 14px;
+    }
+    .newsletter-form-con hr{
+        width: 288px;
+    }
+    .newsletter-form{
+        width: 335px;
+        height: 353px;
+        flex-shrink: 0;
+    }
+    #name{
+        width: 288px;
+        height: 52px;
+    }
+    #email{
+        width: 288px;
+        height: 52px;
+    }
+    #sub{
+        width: 288px;
+        height: 52px;
+    }
+    .newsletter-img{
+        margin-left: 0px;
+    }
+    .newsletter-img img{
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .tag{
+        width: 214.023px;
+        height: 79.268px;
+        left: 125px;
+        bottom: 115px;
+    }
+    .tag h6{
+        font-size: 15.854px;
+    }
+    .tag h3{
+        font-size: 15.854px;
     }
 }
 @media screen and (min-width: 992px) {
